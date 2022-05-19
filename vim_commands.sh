@@ -9,4 +9,6 @@
 # saves the changes, and exits Vim.
 :wq 
 # save the changes made, and exits Vim.
-: x 
+: x
+# delete everything!
+:1,$d 
