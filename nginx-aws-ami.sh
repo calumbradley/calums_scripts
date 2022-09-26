@@ -2,4 +2,4 @@
 service nginx status
 
 # nginx conf file
-cd /etc/nginx/
+sudo vi /etc/nginx/nginx.conf
