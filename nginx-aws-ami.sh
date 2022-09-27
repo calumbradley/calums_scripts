@@ -1,8 +1,16 @@
 # check nginx status
 service nginx status
 
-# nginx conf file
+# main nginx conf file
 sudo vi /etc/nginx/nginx.conf
+
+# custom conf files
+
+cd /etc/nginx/conf.d 
+
+# file named 
+
+sudo touch www.calumbradley.com.conf
 
 # Fully restart NGINX web server:
 sudo systemctl restart nginx
@@ -11,7 +19,7 @@ sudo systemctl restart nginx
 sudo yum install nginx
 
 #remove nginx
-sudo yum install nginx
+sudo yum remove nginx
 
 # start nginx
 sudo systemctl start nginx.service
