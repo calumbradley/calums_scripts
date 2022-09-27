@@ -1,7 +1,7 @@
 server {
     listen 80 default_server;
     listen [::]:80 default_server;
-    root /data/www;
+    root /usr/share/nginx/html;
     server_name calumbradley.com www.calumbradley.com;
 
     location / { 
