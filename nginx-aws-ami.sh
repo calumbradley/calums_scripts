@@ -22,3 +22,5 @@ node server.js &
 # see linux processes
 ps aux | grep 'node server.js'
 
+# version of aamazon linux
+cat /etc/os-release
